@@ -15,7 +15,7 @@
     background: url("1.jpg") no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    transition:top 1s ease;
+    transition: top 3s ease;
     
 }
 .box:hover{
@@ -34,14 +34,13 @@
     top: 11vh;
     width: 5vh;
     right: 1vh;
-    
 }
+
 #head{
     z-index: 3;
     top: 5vh;
     width: 11vh;
     right: 0;
-   
 }
 #roupe{
     z-index: 0;
@@ -54,7 +53,7 @@
 .focus{
     position: fixed;
     bottom: 15vh;
-    transition:opacity .2s linear;
+    transition: opacity 0.2s linear;
 }
 
 #light {
@@ -96,11 +95,11 @@
     opacity: 0;
     pointer-events: all;
     position: fixed;
-    width: 60px;
-    top:70vh;
+    width: 65px;
+    top: 70vh;
     right: calc(50% - 19vh);
     bottom: 20vh;
-    transition:opacity .2s linear;
+    transition:opacity 0.2s linear;
   }
   
 #rabbit{
@@ -108,7 +107,7 @@
     opacity: 0;
     pointer-events: all;
     position: fixed;
-    width: 60px;
+    width: 65px;
     top: 50vh;
     right: calc(50% - 18vh);
     bottom: 20vh;

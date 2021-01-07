@@ -2,7 +2,7 @@ document.querySelector('#girl').addEventListener("dblclick", () => {
     document.querySelector('#girl').style.display='none';
     document.querySelectorAll('.animals').forEach((a)=>{a.style.display='none';})
     document.querySelector('#hat').style.display='none';
-    setTimeout(func = () => {alert("вы прогнали девочку, теперь она не будет выступать");}, 500)
+    setTimeout(func = () => {alert("вы прогнали девочку, теперь она не будет выступать");}, 400)
 });
 
 document.querySelector('.box').onclick = () => {document.querySelector('.box').style.top = "-100%";}
