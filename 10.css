@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;}
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    z-index: 6;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    background: url("1.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: top 3s ease;
+    
+}
+.box:hover{
+    top:-5%;
+}
+
+.lamp{
+    position: fixed;
+    margin: auto;
+    left: 0;
+    overflow: hidden;  
+}
+
+#bottomm{
+    z-index: 1;
+    top: 11vh;
+    width: 5vh;
+    right: 1vh;
+}
+
+#head{
+    z-index: 3;
+    top: 5vh;
+    width: 11vh;
+    right: 0;
+}
+#roupe{
+    z-index: 0;
+    top: 8.5vh;
+    width: 1.2vh;
+    right: 5vh;
+    
+}
+
+.focus{
+    position: fixed;
+    bottom: 15vh;
+    transition: opacity 0.2s linear;
+}
+
+#light {
+    z-index: 2;
+    height: 0;
+    width: 10vh;
+    position: fixed;
+    pointer-events: none;
+    top: -60vh;
+    margin: auto;
+    left: 50%;
+    opacity:0;
+    bottom: -60vh;
+    transform: translate(-50%, 0);
+    border-bottom: 80vh solid yellow;
+    border-left: 40vh solid transparent;
+    border-right: 40vh solid transparent;
+}
+
+#girl { 
+    z-index: 0;
+    opacity: 0;
+    right: calc(50% - 8vh);
+    width: 40vh;
+   
+}
+
+#hat {
+    z-index: 1;
+    opacity: 0;
+    left: calc(50% + 3vh);
+    width: 24vh;
+    
+}
+
+#bird{
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: all;
+    position: fixed;
+    width: 65px;
+    top: 70vh;
+    right: calc(50% - 19vh);
+    bottom: 20vh;
+    transition:opacity 0.2s linear;
+  }
+  
+#rabbit{
+    z-index: 0;
+    opacity: 0;
+    pointer-events: all;
+    position: fixed;
+    width: 65px;
+    top: 50vh;
+    right: calc(50% - 18vh);
+    bottom: 20vh;
+    transition: opacity 0.3s linear;
+}
